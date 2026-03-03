@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+h5 {
+    color: #495057;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+}
+
+.btn-danger {
+    border-radius: 8px;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+.card {
+    border-radius: 15px;
+}
+
+.form-control:focus {
+    border-color: #4e51df;
+    box-shadow: 0 0 5px rgba(78, 115, 223, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #4e7cdf;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.domain-card {
+    border-radius: 15px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.domain-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual Colors */
+.jee-card {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+}
+
+.neet-card {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.ssc-card {
+    background: linear-gradient(135deg, #396afc, #2948ff);
+}
+
+.gate-card {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+}

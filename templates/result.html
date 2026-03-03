@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-brand">Online Quiz System</span>
+    </div>
+</nav>
+<div class="container mt-5">
+    <div class="card shadow p-5 text-center">
+
+        <h2>Quiz Completed 🎉</h2>
+        <h3>Your Score: {{ score }} / {{ total }}</h3>
+        <h4>Percentage: {{ percentage }}%</h4>
+
+        <div class="mt-4">
+            <a href="/select_domain" class="btn btn-primary">Try Again</a>
+            <a href="/logout" class="btn btn-danger ms-2">Logout</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
